@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: python-template
+  title: Python Flask template
+  description: Provisions a minimalistic Flask application
+spec:
+  type: service
+  owner: development
+
+  # 👇 This is the key line!
+  path: ./template.yaml
