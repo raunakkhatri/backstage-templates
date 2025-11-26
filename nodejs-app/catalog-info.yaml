@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: nodejs-template-location
+  description: Registers the Node.js scaffolder template
+spec:
+  targets:
+    - ./template.yaml

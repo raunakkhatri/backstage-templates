@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: python-template-location
+  description: Registers the Python scaffolder template
+spec:
+  targets:
+    - ./template.yaml
