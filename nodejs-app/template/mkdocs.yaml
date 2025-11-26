@@ -1,0 +1,8 @@
+site_name: ${{values.app_name}}
+site_description: Node.js Express application documentation
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
