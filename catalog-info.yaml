@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: templates-location
+  description: Central registry for all custom scaffolder templates
+spec:
+  targets:
+    - ./nodejs-app/template.yaml
+    - ./python-app/template.yaml
